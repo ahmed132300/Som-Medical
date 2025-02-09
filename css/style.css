@@ -950,7 +950,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #000;
 }
 
-#contact .contact-info a:hover {
+#contact .contact-info a:hover  , .contact-address a:hover{
   color: #ff0000;
 }
 
