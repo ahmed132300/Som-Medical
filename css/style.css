@@ -726,6 +726,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 #portfolio .portfolio-item img {
   transition: all ease-in-out 0.4s;
   width: 100%;
+  min-height: 300px;
+  max-height: 300px;
 }
 
 #portfolio .portfolio-item:hover img {
