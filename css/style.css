@@ -716,7 +716,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #portfolio .portfolio-item h2 {
-  color: #ffffff;
+  color: #ff0000;
   font-size: 24px;
   margin: 0;
   text-transform: capitalize;
@@ -737,7 +737,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #portfolio .portfolio-item:hover .portfolio-overlay {
   opacity: 1;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(255, 255, 255, 0.788);
 }
 
 #portfolio .portfolio-info {
