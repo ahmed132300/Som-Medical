@@ -551,41 +551,6 @@
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
 
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-  <script>
-    (function(){
-      emailjs.init("W3WG3VQOZ5AveEVRq"); // Replace with your EmailJS public key
-    })();
-  
-    const form = document.getElementById('form');
-  
-    form.addEventListener('submit', function(event) {
-      event.preventDefault(); // Prevent form from actually submitting
-  
-      const name = document.getElementById('name').value;
-      const email = document.getElementById('email').value;
-      const message = document.getElementById('message').value;
-  
-      const serviceID = "service_3brgi7y"; // Replace with your EmailJS service ID
-      const templateID = "template_bl71s87"; // Replace with your EmailJS template ID
-  
-      const templateParams = {
-        name: name,
-        email: email,
-        message: message
-      };
-  
-      emailjs.send(serviceID, templateID, templateParams)
-        .then(function(response) {
-          console.log('SUCCESS!', response.status, response.text);
-          alert("Message sent successfully!");
-          form.reset(); // Clear the form after successful submission
-        }, function(error) {
-          console.error('FAILED...', error);
-          alert("Oops! Something went wrong. Please try again later.");
-        });
-    });
-  </script>
 </body>
 
 </html>

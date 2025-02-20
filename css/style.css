@@ -52,9 +52,9 @@ h6 {
   display: flex;
   background: #008d07;
   color: #fff;
-  padding: 6px 12px 9px 12px;
-  font-size: 16px;
-  border-radius: 2px;
+  padding: 16px;
+  font-size: 20px;
+  border-radius:50%;
   right: 15px;
   bottom: 15px;
   transition: 0.5s;
