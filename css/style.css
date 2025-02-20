@@ -49,15 +49,15 @@ h6 {
 
 .back-to-top {
   position: fixed;
-  display: none;
-  background: #eb0000;
+  display: flex;
+  background: #008d07;
   color: #fff;
   padding: 6px 12px 9px 12px;
   font-size: 16px;
   border-radius: 2px;
   right: 15px;
   bottom: 15px;
-  transition: background 0.5s;
+  transition: 0.5s;
 }
 
 .back-to-top:focus {

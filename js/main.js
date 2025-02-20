@@ -1,5 +1,6 @@
 jQuery(document).ready(function ($) {
 
+
   // Back to top button
   $(window).scroll(function () {
     if ($(this).scrollTop() > 100) {
@@ -8,7 +9,7 @@ jQuery(document).ready(function ($) {
       $('.back-to-top').fadeOut('slow');
     }
   });
-  $('.back-to-top').click(function () {
+  $('.back-to-top').click(() => {
     $('html, body').animate({
       scrollTop: 0
     }, 1500, 'easeInOutExpo');
@@ -184,4 +185,30 @@ function link() {
   //  ${m.value}`
 }
 
+function whatsapp(){
+  location.href = 'https://wa.me/+252638647470'
+}
 
+import emailjs from 'emailjs';
+
+// function email(){
+//   let l = document.getElementById("link");
+//   let e = document.getElementById("email");
+//   let m = document.getElementById("message");
+//   let n = document.getElementById("name");
+//   let email = {
+// to_name: n,
+// message:m,
+// to_email:e,
+// subject:'Message From Som Medical'
+// }
+
+// emailjs.send('service_3brgi7y', 'template_bl71s87', email).then(
+//   (response) => {
+//     console.log('SUCCESS!', response.status, response.text);
+//   },
+//   (error) => {
+//     console.log('FAILED...', error);
+//   },
+// );
+// }
