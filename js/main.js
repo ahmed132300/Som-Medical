@@ -172,3 +172,16 @@ jQuery(document).ready(function ($) {
 
 
 });
+
+
+function link() {
+  let l = document.getElementById("link");
+  let e = document.getElementById("email");
+  let m = document.getElementById("message");
+  let n = document.getElementById("name");
+  location.href = `https://wa.me/+252638647470?text= my name is => ${n.value} 
+  //  my email => ${e.value} 
+  //  ${m.value}`
+}
+
+
